@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Binge Watch</title>
+	<meta name="viewport" content="width=device-width" inital-scale=1.0>
+	<link rel="stylesheet" href="styles.css">  
+	<script src="script.js"></script> 
+</head>
+
+<body onload="fun()">
+
+	
+		<div class="topnav">
+	 		<a class="active" href="home.html">
+	 			<img class="logo" src="data:image/jpeg;base64,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" alt="logo"></a>
+	 		<input id="searchbar1" class="searchbar" type="text" placeholder="Search IMDb">
+	 		<input class="search" type="submit" value="search" onclick="search()">
+	  		<button class="topnavbutton" type="button">Watchlist</button>
+	  		<button class="topnavbutton" type="button">Sign In</button>
+		</div>	
+	
+
+	<main>
+		<br>
+		<br>
+		<span id="heading2"><b>Trending Movies</b></span>
+
+		<div class="columns">
+			<div class="column">
+				<a id="tlink1" href="">
+					<img id="still1" class="still" src="">
+					<h3 id="columnt1" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="tlink2" href="">
+					<img id="still2" class="still" src="">
+					<h3 id="columnt2" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="tlink3" href="">
+					<img id="still3" class="still" src="">
+					<h3 id="columnt3" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="tlink4" href="">
+					<img id="still4" class="still" src="">
+					<h3 id="columnt4" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="tlink5" href="">
+					<img id="still5" class="still" src="">
+					<h3 id="columnt5" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="tlink6" href="">
+					<img id="still6" class="still" src="">
+					<h3 id="columnt6" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="tlink7" href="">
+					<img id="still7" class="still" src="">
+					<h3 id="columnt7" class="column_title"></h3>
+				</a>
+			</div>
+		</div>
+
+		<br>
+		<span id="heading2"><b>Latest Movie Trailer</b></span>
+		<div class="mySlides fade" align="center">
+			<iframe id="home_trailer" width="500" height="350" src="https://www.youtube.com/embed/odM92ap8_c0"></iframe>
+			<div class="text">Godzilla vs Kong</div>
+		</div>
+
+		<br>
+		<span id="heading2"><b>Top rated movies</b></span>
+
+		<div class="columns">
+			<div class="column">
+				<a id="trlink1" href="">
+					<img id="trstill1" class="still" src="">
+					<h3 id="trcolumnt1" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink2" href="">
+					<img id="trstill2" class="still" src="">
+					<h3 id="trcolumnt2" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink3" href="">
+					<img id="trstill3" class="still" src="">
+					<h3 id="trcolumnt3" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink4" href="">
+					<img id="trstill4" class="still" src="">
+					<h3 id="trcolumnt4" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink5" href="">
+					<img id="trstill5" class="still" src="">
+					<h3 id="trcolumnt5" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink6" href="">
+					<img id="trstill6" class="still" src="">
+					<h3 id="trcolumnt6" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink7" href="">
+					<img id="trstill7" class="still" src="">
+					<h3 id="trcolumnt7" class="column_title"></h3>
+				</a>
+			</div>
+		</div>
+
+
+		<br>
+		<span id="heading2"><b>Trending People</b></span>
+
+		<div class="columns">
+			<div class="column">
+				<a id="trlink1" href="">
+					<img id="pstill1" class="still" src="">
+					<h3 id="pcolumnt1" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink2" href="">
+					<img id="pstill2" class="still" src="">
+					<h3 id="pcolumnt2" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink3" href="">
+					<img id="pstill3" class="still" src="">
+					<h3 id="pcolumnt3" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink4" href="">
+					<img id="pstill4" class="still" src="">
+					<h3 id="pcolumnt4" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink5" href="">
+					<img id="pstill5" class="still" src="">
+					<h3 id="pcolumnt5" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink6" href="">
+					<img id="pstill6" class="still" src="">
+					<h3 id="pcolumnt6" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="trlink7" href="">
+					<img id="pstill7" class="still" src="">
+					<h3 id="pcolumnt7" class="column_title"></h3>
+				</a>
+			</div>
+		</div>
+
+
+
+
+		<span id="heading2"><b>Upcoming movies</b></span>
+
+		<div class="columns">
+			<div class="column">
+				<a id="ulink1" href="">
+					<img id="ustill1" class="still" src="">
+					<h3 id="ucolumnt1" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="ulink2" href="">
+					<img id="ustill2" class="still" src="">
+					<h3 id="ucolumnt2" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="ulink3" href="">
+					<img id="ustill3" class="still" src="">
+					<h3 id="ucolumnt3" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="ulink4" href="">
+					<img id="ustill4" class="still" src="">
+					<h3 id="ucolumnt4" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="ulink5" href="">
+					<img id="ustill5" class="still" src="">
+					<h3 id="ucolumnt5" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="ulink6" href="">
+					<img id="ustill6" class="still" src="">
+					<h3 id="ucolumnt6" class="column_title"></h3>
+				</a>
+			</div>
+			<div class="column">
+				<a id="ulink7" href="">
+					<img id="ustill7" class="still" src="">
+					<h3 id="ucolumnt7" class="column_title"></h3>
+				</a>
+			</div>
+		</div>
+
+<!--		<iframe id="home_trailer"  width="680" height="585" src=""></iframe>    -->
+
+	</main>
+	<footer>
+	
+		<br><br><br>
+		<p><img src="C:\Users\HP\Downloads\apicon-removebg-preview.png " alt="amazon_prime"></p>
+		<p><img src="C:\Users\HP\Downloads\download__1_-removebg-preview.png " alt="netflix"></p>
+		<p><img src="C:\Users\HP\Downloads\fbicon.png " alt="fbicon"></p>
+		<p><img src="C:\Users\HP\Downloads\instagram-logo-icon-vector-29228000-removebg-preview.png"> </p>
+		<br>
+		<br>
+		<br>
+		<h5 style="font-size: medium; padding-right: 70%;"><strong> Copyrights &copy; www.mFlix.com, All Rights are reserved!</strong> </h5>
+</footer>
+	
+</body>
+</html> 

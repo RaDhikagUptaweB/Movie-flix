@@ -1,0 +1,275 @@
+body{
+	margin: 0;
+	background-color: black;
+	overflow-x: hidden;
+} 
+.topnavbutton:hover {
+	background-color: rgb(165, 21, 21);
+}
+.search:hover {
+	background-color: #121212;
+	color: white;
+}
+footer {
+	padding-top: 1%;
+	background-color: #6e6969;
+	/*line-height: 20px;*/
+	padding-bottom: 3%;
+	width: 100%;
+	text-align: center;
+	padding-left: 45%;
+}
+ p{
+
+	width: 40px;
+	height: 25px;
+	float: left;
+	padding-left: 3%;
+	
+}
+
+
+.topnav{
+	float: left;
+	padding-top: 2%;
+	padding-left: 350px; 
+	background-color: #6e6969;
+	/*line-height: 20px;*/
+	padding-bottom: 3%;
+	width: 100%;
+	position: fixed;
+}
+
+
+
+.logo{
+	float: left;
+	height: 40px;
+	width: 45px;
+}
+
+.searchbar{
+	
+	padding: 8px;
+	font-size: 14px;
+	width: 800px;
+}
+
+.search{
+	padding: 6px;
+}
+
+button{
+	background: #121212;
+}
+
+.topnavbutton{
+	padding: 10px;
+	font-size: 14px;
+	color: white;
+}
+
+.output{
+	color: white;
+}
+
+#heading2{
+	margin-left: 70px;
+	font-size: 20px;
+}
+
+
+
+/* Flexbox for homepage */
+.columns{
+	margin: 40px;
+	width:auto;
+	display: flex;
+}
+
+.column{
+	width: 200px;
+	margin:20px;
+	border: 1px solid white;
+	color: white;
+}
+.column_title{
+	color: white;
+	font-style: none;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+/* Here ends flexbox */
+
+
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+/* Movie page styles  */
+h1{
+	color: white;
+	text-align: center;
+}
+
+
+
+.trailposts{
+	margin: 40px;
+	width:auto;
+	display: flex;
+}
+
+.trailpost{
+	height: auto;
+	width: 400px;
+	margin:20px;
+	border: 0px solid white;
+	color: white;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#movie_poster{
+	width: 300px;
+	height: 500px;
+	
+	/*margin-left: 450px; */	
+}
+
+#trailer{
+	width: 600px;
+	height: 500px;
+}
+
+/*width="680px" height="600px" */
+
+
+
+
+main{
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 6%;
+}
+
+h2{
+	text-align: center;
+}
+
+span{
+	margin-left: 900px;
+}
+
+h4{
+	color: white;
+}
+
+
+/* search page styles */
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 300px 400px 300px;
+
+
+}
+
+#result1{
+	border: 2px solid white;
+	grid-column: span 4;
+
+}
+
+#result2{
+	border: 2px solid white;
+	grid-column: span 4;
+
+}
+
+#result3{
+	border: 2px solid white;
+	grid-column: span 4;
+
+}
+
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+	.topnav {
+		float: left;
+	padding-top: 2%;
+	padding-left: 30px; 
+	background-color: #6e6969;
+	/*line-height: 20px;*/
+	padding-bottom: 2%;
+	width: 100%;
+	position: fixed;
+	}
+
+	footer{
+		width: 100%;
+		background: #121212;
+		height: 100px;
+		color: white;
+		align-content: center;
+		margin-top: 40px;
+	}
+
+	.searchbar{
+		
+		padding: 6px;
+		font-size: 14px;
+		width: 500px;
+	}
+
+
+	/* Flexbox for homepage */
+	.columns{
+		margin: 40px;
+		width:auto;
+		display: block;
+		max-width: 400px;
+	}
+
+	.column{
+		width: 400px;
+		margin:20px;
+		border: 1px solid white;
+		color: white;
+	}
+	.column_title{
+		color: white;
+		font-style: none;
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+	}
+	/* Here ends flexbox */
+
+
+
+	img{
+		max-width: 100%;
+		display: block;
+	}
+
+	#movie_poster{
+		width: 300px;
+		height: 500px;
+		
+		max-width: 100%;
+		display: block;
+
+		margin-left: 20px;
+		margin-right: 0px;
+		/*margin-left: 800px;*/
+	}	
+}
+
